@@ -57,3 +57,22 @@ print(my_car)
 
 del my_car["rims"]
 print(my_car)
+
+
+# loop - dictionaries
+
+operator = dict(name = "Kamau", age = 23, build = "skinny", skills = "none")
+
+for x in operator:
+    print(x)
+    
+# print out values
+for x in operator.values():
+    print(x)
+
+# looping through keys and values
+for x,y in operator.items():
+    print(x,y)
+    
+# 
+    
